@@ -1,3 +1,4 @@
+
 /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -273,7 +274,7 @@
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);
+     left: var(--header-logo-link-left);
   }
   
   /* Footer
@@ -385,7 +386,8 @@
   
   /* Card WORK
       ============================= */
-  
+  .section-works {
+  }
   .card-work .card-outer {
     position: relative;
     overflow: hidden;
@@ -450,7 +452,8 @@
   
   /* Card SERVICES
       ============================= */
-  
+  .section-services {
+  }
   .card-services .card-title {
     margin: 0;
   }
@@ -472,7 +475,7 @@
   /* Card TESTIMONIAL
       ============================= */
   .section-testimonial{
-   }
+    }
   .card-testimonial {
     text-align: center;
   }
@@ -502,16 +505,11 @@
     font-size: 10rem;
     z-index: -1;
   }
-
-  .latest_news{
-   .section-latest-news{
-
-  }
-  #contact{
-   .section-contact {
+  #contact {
+   .section-contact{
    }
   }
-  #about{
-    .section-about-us{
-  }
+  #about {
+   .section-about-us {
+   }
   }
